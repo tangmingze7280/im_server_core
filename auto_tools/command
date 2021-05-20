@@ -1,0 +1,5 @@
+#生成 js文件
+protoc --js_out=./ ./xxx.proto
+#生成 java文件
+protoc --java_out=./ ./xxx.proto
+protoc --java_out=$out_put $in_put/xxx.proto
